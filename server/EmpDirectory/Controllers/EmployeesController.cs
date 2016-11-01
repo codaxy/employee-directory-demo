@@ -5,16 +5,16 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
-namespace EmpDirectory.Api.Controllers
+namespace EmpDirectory.Controllers
 {
-    public class DepartmentsController : ApiController
+    public class EmployeesController : ApiController
     {
         // GET api/values
-        public IEnumerable<Db.Department> Get()
+        public IEnumerable<object> Get()
         {
             using (var db = new Db.DataContext())
             {
-                return db.Departments.ToArray();
+                return db.Employees.ToArray();
             }
         }
 

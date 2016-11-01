@@ -5,13 +5,15 @@ import {Url} from 'cx/app/Url';
 import {History} from 'cx/app/History';
 import {Timing} from 'cx/util/Timing'
 import {Debug} from 'cx/util/Debug'
-import {store} from './store';
+import {Store} from 'cx/data/Store';
+
 import 'whatwg-fetch';
-import {production} from 'cx/util/production';
 
 import "./index.scss";
 
-var stop;
+let stop;
+
+const store = new Store();
 
 if(module.hot) {
   // accept itself

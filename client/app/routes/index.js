@@ -1,9 +1,21 @@
-import Default from './default';
 import {Route} from 'cx/ui/nav/Route';
+import {HtmlElement} from 'cx/ui/HtmlElement';
+import {PureContainer} from 'cx/ui/PureContainer';
+
+import AppLayout from '../layout';
+
+import Default from './default';
+import About from './about';
+
 
 export default <cx>
-    <Route route="~/" url:bind="url">
-        <Default/>
-    </Route>
+    <PureContainer outerLayout={AppLayout}>
+        <Route route="~/" url:bind="url">
+            <Default/>
+        </Route>
+        <Route route="~/about" url:bind="url">
+            <About/>
+        </Route>
+    </PureContainer>
 </cx>
 

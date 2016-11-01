@@ -1,0 +1,76 @@
+.cxb-textfield.cxm-search {
+
+  height: 3rem;
+  width: 100%;
+
+  .cxe-textfield-input {
+    background: none;
+    color: white;
+    border-color: transparent;
+    font-size: 1.5rem;
+  }
+}
+
+.b-list {
+  padding: 0.5rem;
+  background: #f7f7f7;
+  overflow: auto;
+}
+
+.b-card {
+  float: left;
+  margin: 0.5rem;
+  width: 25rem;
+  border: 1px solid lightgray;
+  border-radius: 0.25rem;
+  box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.1);
+  overflow: hidden;
+  background: white;
+  color: gray;
+
+  font-size: 0.85rem;
+
+  h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  h3 ~ p {
+    margin: 0 0 0.5rem 0;
+    font-size: 0.8rem;
+    color: gray;
+  }
+}
+
+.e-card-img {
+  width: 8rem;
+  height: 8rem;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  float: left;
+  margin-right: 1rem;
+
+  img {
+    height: 100%;
+    width: auto;
+  }
+}
+
+.e-card-details {
+  padding: 0.5rem 0.5rem;
+  color: gray;
+
+  a {
+    text-decoration: none;
+    color: #3949AB;
+  }
+
+  i {
+    font-size: 14px;
+    display: inline-block;
+    width: 1rem;
+    text-align: center;
+  }
+}
+

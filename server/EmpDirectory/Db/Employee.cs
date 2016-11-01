@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace EmpDirectory.Api.Db
+namespace EmpDirectory.Db
 {
     public class Employee
     {

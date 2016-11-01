@@ -5,7 +5,7 @@ using System.Configuration;
 using System.Linq;
 using System.Web;
 
-namespace EmpDirectory.Api.Db
+namespace EmpDirectory.Db
 {
     public class DataContext : DbContext
     {

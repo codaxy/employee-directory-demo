@@ -1,4 +1,5 @@
 var webpack = require('webpack'),
+    path = require('path'),
     ExtractTextPlugin = require("extract-text-webpack-plugin"),
     merge = require('webpack-merge'),
     common = require('./webpack.config');
@@ -28,7 +29,8 @@ var specific = {
     ],
 
     output: {
-        publicPath: '/starter/'
+        publicPath: '/employees/',
+        path: path.join(__dirname, '../../server/EmpDirectory')
     }
 };
 
