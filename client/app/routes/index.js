@@ -10,11 +10,11 @@ import About from './about';
 
 export default <cx>
     <PureContainer outerLayout={AppLayout}>
-        <Route route="~/" url:bind="url">
-            <Default/>
-        </Route>
         <Route route="~/about" url:bind="url">
             <About/>
+        </Route>
+        <Route route="~/(*splat)" url:bind="url">
+            <Default/>
         </Route>
     </PureContainer>
 </cx>

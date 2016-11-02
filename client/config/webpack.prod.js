@@ -10,6 +10,13 @@ var sass = new ExtractTextPlugin({
 });
 
 var specific = {
+
+    resolve: {
+        alias: {
+            config: path.join(__dirname, 'api.prod'),
+        }
+    },
+
     module: {
         loaders: [{
             test: /\.scss$/,

@@ -28,7 +28,7 @@ if(module.hot) {
 
   //apply data on hot replace
   if (module.hot.data)
-    store.load(module.hot.data);
+    store.load(module.hot.data.state);
 }
 
 Url.setBaseFromScript('app.js');

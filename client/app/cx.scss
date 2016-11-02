@@ -1,0 +1,20 @@
+$cx-input-font-size: inherit;
+$cx-input-padding-left: 0;
+$cx-input-padding-right: 0;
+$cx-input-padding-top: 0.5rem;
+$cx-input-padding-bottom: 0.7rem;
+
+$cx-input-border-top-width: 0;
+$cx-input-border-right-width: 0;
+$cx-input-border-left-width: 0;
+
+$cx-input-background-color: transparent;
+
+@import "~cx-core/src/ui/form/variables";
+
+$cx-input-focus: map_merge($cx-input-focus, (
+  box-shadow: none
+));
+
+
+@import "~cx-core/src/index";

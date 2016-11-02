@@ -1,3 +1,5 @@
+@import "emp/index";
+
 .cxb-textfield.cxm-search {
 
   height: 3rem;
@@ -32,7 +34,8 @@
 
   h3 {
     margin: 0;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+    font-weight: normal;
   }
 
   h3 ~ p {

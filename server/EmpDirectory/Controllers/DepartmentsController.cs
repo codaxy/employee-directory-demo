@@ -10,33 +10,17 @@ namespace EmpDirectory.Controllers
     public class DepartmentsController : ApiController
     {
         // GET api/values
-        public IEnumerable<Db.Department> Get()
+        public IEnumerable<Db.Department> Get(string q = null)
         {
             using (var db = new Db.DataContext())
             {
-                return db.Departments.ToArray();
+                IQueryable<Db.Department> query = db.Departments;
+
+                if (!String.IsNullOrWhiteSpace(q))
+                    query = query.Where(a => a.Name.StartsWith(q));
+
+                return query.ToArray();
             }
-        }
-
-        // GET api/values/5
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST api/values
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT api/values/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE api/values/5
-        public void Delete(int id)
-        {
         }
     }
 }
