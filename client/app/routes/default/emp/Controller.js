@@ -45,19 +45,24 @@ export default class extends Controller {
         e.preventDefault();
         var data = this.store.get('$page.info.data');
         var id = this.store.get('$route.id');
+        var promise;
         if (id == 'new') {
-            put(data)
+            promise = put(data)
                 .then(x=> {
-                    this.store.set('$page.info.mode', 'view');
                     History.replaceState({}, null, `~/emp/${x.id}`);
                 });
         }
         else {
-            patch(data.id, data)
-                .then(x=> {
-                    this.store.set('$page.info.mode', 'view');
-                });
+            promise = patch(data.id, data);
         }
+
+        this.store.set('$page.info.mode', 'view');
+
+        promise
+            .catch(e=> {
+                console.log(e);
+                this.store.set('$page.info.mode', 'edit');
+            });
     }
 
     cancel(e) {
