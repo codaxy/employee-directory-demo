@@ -1,0 +1,86 @@
+.b-page.m-emp {
+  figure {
+    width: 100%;
+  }
+}
+
+.b-empov {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: auto;
+  overflow: auto;
+  width: 75%;
+  border-left: 1px solid lightgray;
+  box-shadow: -1px 0 3px rgba(128, 128, 128, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &.s-loading {
+    transform: translate3d(100%, 0, 0);
+  }
+
+  main {
+    position: relative;
+    background: rgba(255, 255, 255, 0.99);
+    height: 100%;
+    overflow: auto;
+  }
+
+  .e-empov-details img {
+    height: 12rem;
+    width: auto;
+    margin-top: 3rem;
+  }
+}
+
+.e-empov-details {
+
+  .cxb-labelstoplayout {
+    width: 100%;
+  }
+
+  font-size: 1.3rem;
+
+  img {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    display: block;
+  }
+
+  label {
+    font-size: 0.6rem;
+    font-weight: bold;
+    color: #b6b6b6;
+  }
+
+  h6 {
+    margin: 0;
+    font-size: 0.7rem;
+  }
+
+  section {
+    margin: 1rem;
+  }
+
+  .row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    & > div, & > section {
+      flex: 1;
+    }
+
+    @media screen and (min-width: 1024px) {
+      & > div, & > section {
+        flex: 0;
+      }
+    }
+  }
+
+  .form-group {
+    margin: 0 1rem;
+  }
+}

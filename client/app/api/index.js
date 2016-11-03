@@ -1,50 +1,26 @@
-import {server} from 'config';
+import {apiGet, apiPatch, apiPut} from 'app/api/methods';
 
-function checkOk(r) {
-    if (!r.ok)
-        throw Error(r.statusText);
-    return r;
+export function queryEmployees(q) {
+    return apiGet('employees', q);
 }
 
-export function apiFetch(url, opt) {
-
-    var query = '';
-
-    if (opt && typeof opt.query == 'object') {
-        query = '?' + Object.keys(opt.query)
-                .map(k => encodeURIComponent(k) + '=' + encodeURIComponent(opt.query[k]))
-                .join('&');
-        delete opt.query;
-    }
-
-    let options = {
-        ...opt
-    };
-    return fetch(server.baseUrl + url + query, options)
-        .then(checkOk)
-        .then(x=>x.json())
+export function queryDepartments(q) {
+    return apiGet('departments', q);
 }
 
-export function apiGet(url, query) {
-    return apiFetch(url, { query });
+export function queryOffices(q) {
+    return apiGet('offices', q);
 }
 
-export function apiPatch(url, data) {
-    return apiFetch(url, {
-        method: 'PATCH',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data, null, 2)
-    });
+export function getEmployee(id) {
+    return apiGet(`employees/${id}`);
 }
 
-export function apiPut(url, data) {
-    return apiFetch(url, {
-        method: 'PUT',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(data, null, 2)
-    });
+export function patchEmployee(id, data) {
+    return apiPatch(`employees/${id}`, data);
 }
+
+export function putEmployee(data) {
+    return apiPut(`employees`, data);
+}
+

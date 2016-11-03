@@ -10,30 +10,26 @@ import {LookupField} from 'cx/ui/form/LookupField';
 import {LabelsTopLayout} from 'cx/ui/layout/LabelsTopLayout';
 
 export default <cx>
-    <div
-        controller={Controller}
-        class={{
-            "b-empov": true,
-            "s-loading": { expr: "{$page.info.status}=='loading'"}
-        }}
-    >
+    <main controller={Controller}>
         <Rescope bind="$page.info" visible:expr="{status}=='ok'">
-            <header class="e-empov-header">
-                <Link href="~/"><i class="fa fa-arrow-left" /></Link>
-                <h2 text:tpl="{data.firstName} {data.lastName}">
-                    Person Profile
-                </h2>
-                <a href="#" visible:expr="{mode}!='edit'"><i class="fa fa-pencil" onClick="edit" /></a>
-                <a href="#" visible:expr="{mode}=='edit' && {valid}"><i class="fa fa-check" onClick="save" /></a>
-                <a href="#" visible:expr="{mode}=='edit'"><i class="fa fa-times" onClick="cancel" /></a>
+            <header class="e-page-header">
+                <Link href="~/"><i class="fa fa-arrow-left"/></Link>
+                <h2 text:expr="{mode}=='edit' ? 'Edit Profile' : 'View Profile'"/>
+                <a href="#" visible:expr="{mode}!='edit'"><i class="fa fa-pencil" onClick="edit"/></a>
+                <a href="#" visible:expr="{mode}=='edit' && {valid}"><i class="fa fa-check" onClick="save"/></a>
+                <a href="#" visible:expr="{mode}=='edit'"><i class="fa fa-times" onClick="cancel"/></a>
             </header>
 
             <div class="e-empov-details">
                 <ValidationGroup valid:bind="valid">
                     <div class="row">
-                        <img src:expr="{data.pictureUrl} || 'http://placehold.it/200x200'" alt="Person" />
 
-                        <section visible:expr="{mode}=='edit'" style="flex:1">
+                        <figure>
+                            <img src:expr="{data.pictureUrl} || 'http://placehold.it/200x200'" alt="Person"/>
+                        </figure>
+
+                        <section style="flex:1">
+
                             <h6>General</h6>
 
                             <div class="row">
@@ -42,9 +38,10 @@ export default <cx>
                                         value:bind="data.firstName"
                                         label="First Name"
                                         mode:bind="mode"
-                                        style="width:100%; min-width:10rem"
+                                        style="width:100%; min-width:10rem; font-size: 2rem"
                                         maxLength={50}
                                         required
+                                        visited
                                         autoFocus
                                     />
                                 </div>
@@ -54,8 +51,9 @@ export default <cx>
                                         value:bind="data.lastName"
                                         label="Last Name"
                                         mode:bind="mode"
-                                        style="width:100%; min-width:10rem"
+                                        style="width:100%; min-width:10rem; font-size: 2rem"
                                         required
+                                        visited
                                         maxLength={50}
                                     />
                                 </div>
@@ -66,7 +64,7 @@ export default <cx>
                                     value:bind="data.title"
                                     label="Position/Title"
                                     mode:bind="mode"
-                                    style="width:100%; min-width: 10rem; max-width: 22rem"
+                                    style="width:100%; min-width: 10rem; max-width: 22rem;"
                                     maxLength={150}
                                 />
                             </div>
@@ -76,15 +74,59 @@ export default <cx>
                                     value:bind="data.pictureUrl"
                                     label="Picture URL"
                                     mode:bind="mode"
-                                    style="width: 100%;min-width: 20rem"
+                                    style="width: 100%;min-width: 20rem;font-size:0.8rem"
                                     maxLength={200}
                                 />
                             </div>
 
                         </section>
+
                     </div>
 
                     <div class="row" style="padding: 1rem 0">
+
+                        <section>
+                            <h6>Details</h6>
+                            <div layout={LabelsTopLayout} class="form-group">
+                                <LookupField
+                                    value:bind="data.officeId"
+                                    text:bind="data.office.name"
+                                    label="Office"
+                                    mode:bind="mode"
+                                    emptyText="-"
+                                    style="width:100%; min-width:20rem"
+                                    onQuery="queryOffices"
+                                    required
+                                    visited
+                                    optionTextField='name'
+                                />
+                            </div>
+                            <div layout={LabelsTopLayout} class="form-group">
+                                <LookupField
+                                    value:bind="data.departmentId"
+                                    text:bind="data.department.name"
+                                    label="Department"
+                                    mode:bind="mode"
+                                    emptyText="-"
+                                    style="width:100%; min-width:20rem"
+                                    onQuery="queryDepartments"
+                                    required
+                                    visited
+                                    optionTextField='name'
+                                />
+                            </div>
+
+                            <div layout={LabelsTopLayout} class="form-group">
+                                <DateField
+                                    value:bind="data.startDate"
+                                    label="Joined"
+                                    mode:bind="mode"
+                                    emptyText="-"
+                                    style="width:100%; min-width:20rem;"
+                                />
+                            </div>
+                        </section>
+
                         <section>
                             <h6>Phone</h6>
 
@@ -147,43 +189,10 @@ export default <cx>
                             </div>
                         </section>
 
-                        <section>
-                            <h6>Corporate</h6>
-                            <div layout={LabelsTopLayout} class="form-group">
-                                <TextField
-                                    value:bind="data.officeName"
-                                    label="Office"
-                                    mode:bind="mode"
-                                    emptyText="-"
-                                    style="width:100%; min-width:20rem"
-                                />
-                            </div>
-                            <div layout={LabelsTopLayout} class="form-group">
-                                <LookupField
-                                    value:bind="data.departmentId"
-                                    text:bind="data.department.name"
-                                    label="Department"
-                                    mode:bind="mode"
-                                    emptyText="-"
-                                    style="width:100%; min-width:20rem"
-                                    onQuery="queryDepartments"
-                                    optionTextField='name'
-                                />
-                            </div>
 
-                            <div layout={LabelsTopLayout} class="form-group">
-                                <DateField
-                                    value:bind="data.startDate"
-                                    label="Joined"
-                                    mode:bind="mode"
-                                    emptyText="-"
-                                    style="width:100%; min-width:20rem"
-                                />
-                            </div>
-                        </section>
                     </div>
                 </ValidationGroup>
             </div>
         </Rescope>
-    </div>
+    </main>
 </cx>

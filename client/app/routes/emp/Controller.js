@@ -1,6 +1,6 @@
 import {Controller} from 'cx/ui/Controller';
 import {History} from 'cx/app/History';
-import {get, patch, put, queryDepartments} from '../api'
+import {getEmployee, patchEmployee, putEmployee, queryDepartments, queryOffices} from '../../api/index'
 
 export default class extends Controller {
     init() {
@@ -14,21 +14,17 @@ export default class extends Controller {
             this.store.set('$page.info', {
                 status: 'ok',
                 mode: 'edit',
-                data: {
-                    firstName: 'New',
-                    lastName: 'Entry'
-                }
+                data: {}
             });
         }
         else {
 
             if (id != this.store.get('$page.info.data.id')) {
-                console.log(id, this.store.get('$page.info.data.id'));
                 this.store.set('$page.info.status', 'loading');
                 this.store.set('$page.info.mode', 'view');
             }
 
-            get(id)
+            getEmployee(id)
                 .then(data=> {
                     this.store.set('$page.info.data', data);
                     this.store.set('$page.info.status', 'ok');
@@ -47,18 +43,22 @@ export default class extends Controller {
         var id = this.store.get('$route.id');
         var promise;
         if (id == 'new') {
-            promise = put(data)
+            promise = putEmployee(data)
                 .then(x=> {
+                    this.store.set('$page.info.data', x);
                     History.replaceState({}, null, `~/emp/${x.id}`);
                 });
         }
         else {
-            promise = patch(data.id, data);
+            promise = patchEmployee(data.id, data);
         }
 
         this.store.set('$page.info.mode', 'view');
 
         promise
+            .then(()=> {
+                this.store.update('$page.dataVersion', version => (version || 0) + 1);
+            })
             .catch(e=> {
                 console.log(e);
                 this.store.set('$page.info.mode', 'edit');
@@ -68,10 +68,14 @@ export default class extends Controller {
     cancel(e) {
         e.preventDefault();
         this.store.set('$page.info.mode', 'view');
-        this.load();
+        this.load(true);
     }
 
     queryDepartments(q) {
         return queryDepartments(q);
+    }
+
+    queryOffices(q) {
+        return queryOffices(q);
     }
 }

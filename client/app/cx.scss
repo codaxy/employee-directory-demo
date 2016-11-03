@@ -17,5 +17,10 @@ $cx-input-focus: map_merge($cx-input-focus, (
   box-shadow: none
 ));
 
+$cx-input-error-focus: map_merge($cx-input-error-focus, (
+    box-shadow: none
+));
+
+
 
 @import "~cx-core/src/index";

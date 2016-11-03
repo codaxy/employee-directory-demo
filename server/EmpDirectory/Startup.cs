@@ -16,6 +16,18 @@ namespace EmpDirectory
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
 
+            app.MapWhen(x => x.Request.Path.HasValue && !x.Request.Path.Value.StartsWith("/api"), spa =>
+              {
+                  spa.Use((context, next) =>
+                  {
+                      context.Request.Path = new PathString("/index.html");
+
+                      return next();
+                  });
+
+                  spa.UseStaticFiles();
+              });
+
             app.UseCors(CorsOptions.AllowAll);
         }
     }

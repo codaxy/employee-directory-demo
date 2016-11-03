@@ -1,10 +1,28 @@
+header {
+    padding: 0.5rem 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5em;
+    align-items: center;
+
+    i {
+        margin: 0 0.5rem;
+    }
+
+    h2 {
+        margin: 0 0.5rem;
+        flex: 1;
+        font-weight: normal;
+        font-size: 1.5rem;
+        line-height: 1.5em;
+        padding: 0.3rem 0 0.1rem 0;
+        display: inline-block;
+    }
+}
+
 .b-page {
     header {
         background: #3949AB;
-        padding: 0.25rem;
-        display: flex;
-        flex-direction: row;
-        font-size: 1.5em;
-        align-items: center;
+        color: white;
     }
 }

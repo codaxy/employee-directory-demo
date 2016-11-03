@@ -11,6 +11,7 @@ namespace EmpDirectory.Db
     {
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Department> Departments { get; set; }
+        public DbSet<Office> Offices { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -18,6 +19,7 @@ namespace EmpDirectory.Db
 
             modelBuilder.Entity<Employee>().ToTable("Employee");
             modelBuilder.Entity<Department>().ToTable("Department");
+            modelBuilder.Entity<Office>().ToTable("Office");
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

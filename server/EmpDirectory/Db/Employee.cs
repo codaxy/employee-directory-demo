@@ -27,7 +27,9 @@ namespace EmpDirectory.Db
         public string PictureUrl { get; set; }
 
         public Guid DepartmentId { get; set; }
+        public Department Department { get; set; }
 
-        public Db.Department Department { get; set; }
+        public Guid OfficeId { get; set; }
+        public Office Office { get; set; }
     }
 }

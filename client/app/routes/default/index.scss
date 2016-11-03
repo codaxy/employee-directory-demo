@@ -1,9 +1,9 @@
-@import "emp/index";
-
 .cxb-textfield.cxm-search {
 
-  height: 3rem;
-  width: 100%;
+  height: auto;
+  flex: 1;
+  width: auto;
+  margin: 0 1rem;
 
   .cxe-textfield-input {
     background: none;
@@ -22,8 +22,26 @@
 .b-card {
   float: left;
   margin: 0.5rem;
-  width: 25rem;
-  border: 1px solid lightgray;
+  width: calc(100% - 1rem);
+
+  @media screen and (min-width: 51rem) {
+    width: calc(50% - 1.5rem);
+  }
+
+  @media screen and (min-width: 76rem) {
+    width: calc(33.333% - 2.5rem);
+  }
+
+  @media screen and (min-width: 101rem) {
+    width: calc(25% - 4rem);
+  }
+
+  @media screen and (min-width: 126rem) {
+    width: 24rem;
+  }
+
+
+  border: 1px solid #e1e1e1;
   border-radius: 0.25rem;
   box-shadow: 1px 1px 2px rgba(128, 128, 128, 0.1);
   overflow: hidden;
@@ -41,7 +59,7 @@
   h3 ~ p {
     margin: 0 0 0.5rem 0;
     font-size: 0.8rem;
-    color: gray;
+    color: #b1b1b1;
   }
 }
 
@@ -54,7 +72,18 @@
   float: left;
   margin-right: 1rem;
 
+  figure {
+    position: absolute;
+    background: #e1e1e1;
+    width: 100%;
+    height: 100%;
+    font-size: 2rem;
+    line-height: 8rem;
+    margin: 0;
+  }
+
   img {
+    position: relative;
     height: 100%;
     width: auto;
   }
@@ -62,7 +91,7 @@
 
 .e-card-details {
   padding: 0.5rem 0.5rem;
-  color: gray;
+  color: #585858;
 
   a {
     text-decoration: none;
@@ -73,7 +102,12 @@
     font-size: 14px;
     display: inline-block;
     width: 1rem;
+    margin-right: 0.5rem;
     text-align: center;
   }
 }
 
+.muted {
+  font-style: italic;
+  color: lightgray;
+}
