@@ -12,7 +12,7 @@ const webpack = require('webpack'),
 module.exports = {
     resolve: {
         alias: {
-            config: path.join(paths.root, 'config/api.dev'),
+            API: path.join(paths.root, 'config/API.dev'),
             cx: paths.root + 'node_modules/cx-core/src/',
             app: paths.app
             //uncomment the line below to alias cx-react to cx-preact or some other React replacement library

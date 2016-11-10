@@ -13,7 +13,7 @@ var specific = {
 
     resolve: {
         alias: {
-            config: path.join(__dirname, 'api.prod'),
+            API: path.join(__dirname, 'API.prod'),
         }
     },
 
