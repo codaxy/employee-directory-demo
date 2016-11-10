@@ -1436,9 +1436,9 @@ cx-cli@^16.11.1:
     copy-dir "^0.3.0"
     cross-spawn "^5.0.0"
 
-cx-core:
-  version "16.11.0"
-  resolved "https://registry.yarnpkg.com/cx-core/-/cx-core-16.11.0.tgz#a9780beecba2a63772a2f42a1939b9ddd0013ba2"
+cx-core@16.11.3:
+  version "16.11.3"
+  resolved "https://registry.yarnpkg.com/cx-core/-/cx-core-16.11.3.tgz#32c64459b9718a21ae307b3075407023f367cd21"
   dependencies:
     intl-io "^0.2.0"
     route-parser "^0.0.5"

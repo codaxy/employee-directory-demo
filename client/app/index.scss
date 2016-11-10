@@ -4,6 +4,9 @@
 @import "routes/index";
 
 html {
+
+  height: 100%;
+
   font-size: 14px;
 
   font-family: -apple-system, BlinkMacSystemFont,
@@ -19,6 +22,8 @@ html {
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  overflow: auto;
 }
 
 a {

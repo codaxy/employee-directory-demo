@@ -1,28 +1,81 @@
 header {
-    padding: 0.5rem 1rem;
-    display: flex;
-    flex-direction: row;
-    font-size: 1.5em;
-    align-items: center;
+  padding: 0.5rem 1rem;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.5em;
+  align-items: center;
 
-    i {
-        margin: 0 0.5rem;
-    }
+  i {
+    margin: 0 0.5rem;
+  }
 
-    h2 {
-        margin: 0 0.5rem;
-        flex: 1;
-        font-weight: normal;
-        font-size: 1.5rem;
-        line-height: 1.5em;
-        padding: 0.3rem 0 0.1rem 0;
-        display: inline-block;
-    }
+  h2 {
+    margin: 0 0.5rem;
+    flex: 1;
+    font-weight: normal;
+    font-size: 1.5rem;
+    line-height: 1.25em;
+    padding: 0.5rem 0;
+    display: inline-block;
+  }
+
+  .cxb-label {
+    border-width: 0;
+  }
+}
+
+#app {
+  height: 100%;
+}
+
+.b-layout {
+  height: 100%;
 }
 
 .b-page {
-    header {
-        background: #3949AB;
-        color: white;
-    }
+
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  header {
+    background: #3949AB;
+    color: white;
+  }
+
+  main {
+    flex: 1;
+  }
+}
+
+.b-overlay {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 0;
+  left: auto;
+  overflow: auto;
+  width: 75%;
+  border-left: 1px solid lightgray;
+  box-shadow: -1px 0 3px rgba(128, 128, 128, 0.1);
+  transition: transform 0.3s ease-in-out;
+
+  &.s-loading {
+    transform: translate3d(100%, 0, 0);
+  }
+
+  display: flex;
+  flex-direction: column;
+
+  header {
+    position: relative;
+    background: rgba(255, 255, 255, 0.99);
+  }
+
+  main {
+    position: relative;
+    flex: 1;
+    overflow: auto;
+    background: rgba(255, 255, 255, 0.99);
+  }
 }

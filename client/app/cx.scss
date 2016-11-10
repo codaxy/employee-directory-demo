@@ -1,26 +1,35 @@
-$cx-input-font-size: inherit;
-$cx-input-line-height: 1.5em;
-$cx-input-padding-left: 0;
-$cx-input-padding-right: 0;
-$cx-input-padding-top: 0.3rem;
-$cx-input-padding-bottom: 0.1rem;
+//override Cx defaults
+$cx-default-box-line-height: 1.25em;
+$cx-default-box-font-size: inherit;
+$cx-default-box-padding: 0.5rem;
+$cx-default-input-tag-spacing: 0.2rem;
 
-$cx-input-border-top-width: 0;
-$cx-input-border-right-width: 0;
-$cx-input-border-left-width: 0;
 
-$cx-input-background-color: transparent;
+//import variables, mixins, but leave out any CSS
+$cx-include-all: false;
+@import "~cx/index";
 
-@import "~cx-core/src/ui/form/variables";
-
-$cx-input-focus: map_merge($cx-input-focus, (
-  box-shadow: none
+$cx-input-state-style-map: cx-merge-state-style-maps($cx-input-state-style-map, (
+  default: (
+    border-width: 0 0 1px 0,
+    padding: 0 0 0.5rem 0,
+    background-color: null
+  ),
+  focus: (
+    box-shadow: null
+  ),
+  error-focus: (
+    box-shadow: null
+  )
 ));
 
-$cx-input-error-focus: map_merge($cx-input-error-focus, (
-    box-shadow: none
-));
-
-
-
-@import "~cx-core/src/index";
+//include only the CSS we need
+@include cx-label;
+@include cx-textfield;
+@include cx-datefield;
+@include cx-calendar;
+@include cx-lookupfield;
+@include cx-overlay;
+@include cx-dropdown;
+@include cx-labelstoplayout;
+@include cx-tooltip;

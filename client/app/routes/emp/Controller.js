@@ -57,7 +57,7 @@ export default class extends Controller {
 
         promise
             .then(()=> {
-                this.store.update('$page.dataVersion', version => (version || 0) + 1);
+                this.store.update('list.version', version => (version || 0) + 1);
             })
             .catch(e=> {
                 console.log(e);
@@ -72,10 +72,10 @@ export default class extends Controller {
     }
 
     queryDepartments(q) {
-        return queryDepartments(q);
+        return queryDepartments({q: q});
     }
 
     queryOffices(q) {
-        return queryOffices(q);
+        return queryOffices({q: q});
     }
 }

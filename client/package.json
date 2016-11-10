@@ -11,7 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "cx-cli": "^16.11.1",
-    "cx-core": "^16.11.0",
+    "cx-core": "16.11.3",
     "cx-react": "^16.8.4",
     "whatwg-fetch": "^1.0.0"
   },

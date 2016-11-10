@@ -3,7 +3,8 @@ import {queryEmployees} from 'app/api/index'
 
 export default class extends Controller {
     init() {
-        this.addTrigger('search', ['search.query', '$page.dataVersion'], ::this.load, true);
+        this.store.init('list.loading', true);
+        this.addTrigger('load', ['search.query', 'list.version'], ::this.load, true);
     }
 
     load() {
@@ -13,7 +14,8 @@ export default class extends Controller {
         };
         queryEmployees(options)
             .then(data=> {
-                this.store.set('$page.data', data);
+                this.store.set('list.data', data);
+                this.store.set('list.loading', false);
             })
     }
 }

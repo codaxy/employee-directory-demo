@@ -1,0 +1,22 @@
+$searchfield-state-style-map: cx-merge-state-style-maps(
+  $cx-input-state-style-map, (
+    default: (
+      border-width: 0,
+      background: none,
+      color: white,
+      font-size: 1.5rem,
+      padding: 0.5em 0
+    )
+  )
+);
+
+@include cx-textfield('searchfield', $searchfield-state-style-map,
+  $placeholder: (
+    color: rgba(255, 255, 255, 0.5)
+  )
+);
+
+.cxb-searchfield {
+  flex: 1;
+  width: auto;
+}

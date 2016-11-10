@@ -4,28 +4,54 @@ import {Link} from 'cx/ui/nav/Link';
 import {Route} from 'cx/ui/nav/Route';
 import {Repeater} from 'cx/ui/Repeater';
 import {Overlay} from 'cx/ui/overlay/Overlay';
-import {TextField} from 'cx/ui/form/TextField';
-import Employee from '../emp/Content';
+import {SearchField} from './SearchField';
+import {Label} from 'cx/ui/form/Label';
 import Controller from './Controller';
+import {FirstVisibleChildLayout} from 'cx/ui/layout/FirstVisibleChildLayout';
 
 export default <cx>
-    <main class="b-page" controller={Controller}>
-        <header>
-            <i class="fa fa-search" />
-            <TextField
+    <main controller={Controller} class="b-list">
+        <header putInto="header">
+            <SearchField
                 value:bind="search.query"
                 placeholder="Search..."
-                mod="search"
+                label={{ items: <i class="fa fa-search" /> }}
             />
             <Link href="~/emp/new"><i class="fa fa-plus" /></Link>
+            <Link href="~/about"><i class="fa fa-question" /></Link>
         </header>
 
-        <div class="b-list">
-            <Repeater records:bind='$page.data' recordName="$person">
+        <div
+            class="b-cards"
+            layout={FirstVisibleChildLayout}
+        >
+            <div
+                class="e-cards-empty"
+                visible:expr="{list.loading}">
+                Loading...
+            </div>
+
+            <div
+                class="e-cards-empty"
+                visible:expr="!{list.data} || {list.data}.length == 0"
+            >
+                No records found matching the given search criteria.
+            </div>
+
+            <Repeater
+                records:bind='list.data'
+                recordName="$person"
+                idField="id"
+            >
                 <div class="b-card">
                     <div class="e-card-img">
-                        <figure text:expr="{$person.firstName}[0]+{$person.lastName}[0]" />
-                        <img visible:expr="!!{$person.pictureUrl}" src:bind="$person.pictureUrl" />
+                        <figure
+                            text:expr="{$person.firstName}[0]+{$person.lastName}[0]"
+                        />
+                        <img
+                            visible:expr="!!{$person.pictureUrl}"
+                            src:bind="$person.pictureUrl"
+                        />
                     </div>
 
                     <div class="e-card-details">
@@ -36,35 +62,39 @@ export default <cx>
 
                         <div>
                             <i class="fa fa-globe" />
-                            <Text value:bind="$person.officeName" />
+                            <Text bind="$person.officeName" />
                         </div>
 
                         <div>
                             <i class="fa fa-phone" />
-                            <Text value:bind="$person.mobilePhone" visible:expr="!!{$person.mobilePhone}" />
-                            <span class="muted" visible:expr="!{$person.mobilePhone}">Not provided</span>
+                            <Text
+                                visible:expr="!!{$person.mobilePhone}"
+                                bind="$person.mobilePhone"
+                            />
+                            <span
+                                class="muted"
+                                visible:expr="!{$person.mobilePhone}"
+                            >
+                                Not provided
+                            </span>
                         </div>
 
                         <div>
                             <i class="fa fa-envelope-o" />
-                            <Text value:bind="$person.primaryEmail" visible:expr="!!{$person.primaryEmail}" />
-                            <span class="muted" visible:expr="!{$person.primaryEmail}">Not provided</span>
+                            <Text
+                                visible:expr="!!{$person.primaryEmail}"
+                                bind="$person.primaryEmail"
+                            />
+                            <span
+                                class="muted"
+                                visible:expr="!{$person.primaryEmail}"
+                            >
+                                Not provided
+                            </span>
                         </div>
                     </div>
                 </div>
             </Repeater>
         </div>
     </main>
-
-    <Route route="~/emp/:id" url:bind="url">
-        <Overlay
-            class={{
-                "b-empov": true,
-                "s-loading": { expr: "{$page.info.status}=='loading'"}
-            }}
-            backdrop
-        >
-            <Employee />
-        </Overlay>
-    </Route>
 </cx>

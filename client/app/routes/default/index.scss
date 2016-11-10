@@ -1,26 +1,26 @@
-.cxb-textfield.cxm-search {
-
-  height: auto;
-  flex: 1;
-  width: auto;
-  margin: 0 1rem;
-
-  .cxe-textfield-input {
-    background: none;
-    color: white;
-    border-color: transparent;
-    font-size: 1.5rem;
-  }
-}
+@import "SearchField";
 
 .b-list {
-  padding: 0.5rem;
   background: #f7f7f7;
-  overflow: auto;
+}
+
+.b-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0.5rem;
+  box-sizing: border-box;
+}
+
+.e-cards-empty {
+  font-size: 1.5rem;
+  font-style: italic;
+  padding: 1rem;
+  color: gray;
 }
 
 .b-card {
-  float: left;
+  //float: left;
   margin: 0.5rem;
   width: calc(100% - 1rem);
 
