@@ -23,7 +23,7 @@ $cx-input-state-style-map: cx-merge-state-style-maps($cx-input-state-style-map, 
   )
 ));
 
-//include only the CSS we need
+//include only CSS we need
 @include cx-label;
 @include cx-textfield;
 @include cx-datefield;

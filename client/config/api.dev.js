@@ -1,3 +1,3 @@
 export const API = {
-    baseUrl: 'http://test.codaxy.com/employees/api/'
+    baseUrl: 'http://localhost:55927/employees/api/'
 };
