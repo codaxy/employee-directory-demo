@@ -22,16 +22,13 @@ export default <cx>
 
             <div class="e-emp-details">
                 <ValidationGroup valid:bind="valid">
-                    <div class="row">
+                    <div class="e-emp-general row">
 
                         <figure>
                             <img src:expr="{data.pictureUrl} || 'http://placehold.it/200x200'" alt="Person"/>
                         </figure>
 
-                        <section style="flex:1">
-
-                            <h6>General</h6>
-
+                        <div style="flex:1">
                             <div class="row">
                                 <div layout={LabelsTopLayout} class="form-group">
                                     <TextField
@@ -45,7 +42,6 @@ export default <cx>
                                         autoFocus
                                     />
                                 </div>
-
                                 <div layout={LabelsTopLayout} class="form-group">
                                     <TextField
                                         value:bind="data.lastName"
@@ -79,7 +75,7 @@ export default <cx>
                                 />
                             </div>
 
-                        </section>
+                        </div>
 
                     </div>
 

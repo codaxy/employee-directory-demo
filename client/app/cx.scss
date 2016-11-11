@@ -13,7 +13,7 @@ $cx-input-state-style-map: cx-merge-state-style-maps($cx-input-state-style-map, 
   default: (
     border-width: 0 0 1px 0,
     padding: 0 0 0.5rem 0,
-    background-color: null
+    background-color: transparent
   ),
   focus: (
     box-shadow: null
