@@ -4,7 +4,7 @@ import {getEmployee, patchEmployee, putEmployee, queryDepartments, queryOffices}
 
 export default class extends Controller {
     init() {
-        this.addTrigger('load', ['$route.id'], ::this.load, true);
+        this.load();
     }
 
     load() {
