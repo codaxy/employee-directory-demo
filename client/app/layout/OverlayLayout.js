@@ -1,7 +1,9 @@
-import {HtmlElement} from 'cx/ui/HtmlElement';
-import {ContentPlaceholder} from 'cx/ui/layout/ContentPlaceholder';
-import {Overlay} from 'cx/ui/overlay/Overlay';
-import {History} from 'cx/app/History';
+import { HtmlElement, Overlay } from 'cx/widgets';
+import { ContentPlaceholder, History } from 'cx/ui';
+
+
+
+
 
 import "./icons";
 

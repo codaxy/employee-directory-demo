@@ -3,6 +3,9 @@ $cx-default-box-line-height: 1.25em;
 $cx-default-box-font-size: inherit;
 $cx-default-box-padding: 0.5rem;
 $cx-default-input-tag-spacing: 0.2rem;
+$cx-use-box-line-height-fix: false;
+
+@import "~cx/variables";
 
 
 //import variables, mixins, but leave out any CSS

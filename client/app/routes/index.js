@@ -1,8 +1,5 @@
-import {Route} from 'cx/ui/nav/Route';
-import {HtmlElement} from 'cx/ui/HtmlElement';
-import {PureContainer} from 'cx/ui/PureContainer';
-import {Sandbox} from 'cx/ui/Sandbox';
-import {FirstVisibleChildLayout} from 'cx/ui/layout/FirstVisibleChildLayout';
+import { Route, HtmlElement, PureContainer, Sandbox } from 'cx/widgets';
+import { FirstVisibleChildLayout } from 'cx/ui';
 
 import {PageLayout, OverlayLayout} from '../layout';
 

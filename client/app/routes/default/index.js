@@ -1,13 +1,7 @@
-import {HtmlElement} from 'cx/ui/HtmlElement';
-import {Text} from 'cx/ui/Text';
-import {Link} from 'cx/ui/nav/Link';
-import {Route} from 'cx/ui/nav/Route';
-import {Repeater} from 'cx/ui/Repeater';
-import {Overlay} from 'cx/ui/overlay/Overlay';
+import { HtmlElement, Text, Link, Route, Repeater, Overlay, Label } from 'cx/widgets';
+import { FirstVisibleChildLayout } from 'cx/ui';
 import {SearchField} from './SearchField';
-import {Label} from 'cx/ui/form/Label';
 import Controller from './Controller';
-import {FirstVisibleChildLayout} from 'cx/ui/layout/FirstVisibleChildLayout';
 
 export default <cx>
     <main controller={Controller} class="b-list">

@@ -1,4 +1,4 @@
-import {Controller} from 'cx/ui/Controller';
+import { Controller } from 'cx/ui';
 import {queryEmployees} from 'app/api/index'
 
 export default class extends Controller {

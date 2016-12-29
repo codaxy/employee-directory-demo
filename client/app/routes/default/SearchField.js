@@ -1,4 +1,4 @@
-import {TextField} from 'cx/ui/form/TextField';
+import { TextField } from 'cx/widgets';
 
 export class SearchField extends TextField {
 

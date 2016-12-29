@@ -1,5 +1,6 @@
-import {HtmlElement} from 'cx/ui/HtmlElement';
-import {Link} from 'cx/ui/nav/Link';
+import { HtmlElement, Link } from 'cx/widgets';
+
+
 
 export default <cx>
     <main class="b-about">

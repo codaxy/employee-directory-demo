@@ -1,13 +1,7 @@
-import {HtmlElement} from 'cx/ui/HtmlElement';
-import {Rescope} from 'cx/ui/Rescope';
-import {Link} from 'cx/ui/nav/Link';
+import { HtmlElement, Link, TextField, DateField, ValidationGroup, LookupField } from 'cx/widgets';
+import { Rescope, LabelsTopLayout } from 'cx/ui';
 import Controller from './Controller';
 
-import {TextField} from 'cx/ui/form/TextField';
-import {DateField} from 'cx/ui/form/DateField';
-import {ValidationGroup} from 'cx/ui/form/ValidationGroup';
-import {LookupField} from 'cx/ui/form/LookupField';
-import {LabelsTopLayout} from 'cx/ui/layout/LabelsTopLayout';
 
 export default <cx>
     <main class="b-emp" controller={Controller}>
