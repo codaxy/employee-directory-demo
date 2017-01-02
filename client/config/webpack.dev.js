@@ -6,10 +6,10 @@ var specific = {
     module: {
         loaders: [{
             test: /\.scss$/,
-            loaders: ["style", "css", "sass"]
+            loaders: ["style-loader", "css-loader", "sass-loader"]
         }, {
             test: /\.css$/,
-            loader: ["style", "css"]
+            loader: ["style-loader", "css-loader"]
         }]
     },
     plugins: [
@@ -21,7 +21,7 @@ var specific = {
     devtool: 'eval',
     devServer: {
         hot: true,
-        port: 8080,
+        port: 8082,
         noInfo: false,
         inline: true,
         historyApiFallback: true
