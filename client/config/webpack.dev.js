@@ -21,7 +21,7 @@ var specific = {
     devtool: 'eval',
     devServer: {
         hot: true,
-        port: 8082,
+        port: 8080,
         noInfo: false,
         inline: true,
         historyApiFallback: true
