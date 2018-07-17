@@ -1,38 +1,3 @@
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
 .cx-text-left.cx-text-left {
   text-align: left; }
 
@@ -42,1807 +7,12 @@ Displayed instead of whitespace
 .cx-text-center.cx-text-center {
   text-align: center; }
 
-/*
-BESM
+@keyframes cx-rotate {
+  from {
+    transform: rotate(0); }
+  to {
+    transform: rotate(360deg); } }
 
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-.cxe-select-select, .cxs-icon > .cxe-lookupfield-input {
-  background-size: 16px 16px;
-  background-repeat: no-repeat;
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 16 16'%3E%3Cpath d='M2.505 6.647L8 11l5.473-4.33L13 6.02 8 10 3 6z' fill='%23b3b3b3' fill-rule='evenodd'/%3E%3C/svg%3E"); }
-
-.cxb-svg-icon {
-  fill: currentColor; }
-
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-.cxb-numberfield {
-  position: relative;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 180px;
-  line-height: 0; }
-  .cxb-numberfield.cxs-view-mode {
-    line-height: 1.25em;
-    padding: 0.5rem;
-    border-width: 1px;
-    border-style: solid;
-    border-color: transparent; }
-
-.cxe-numberfield-input {
-  box-sizing: border-box;
-  width: 100%;
-  height: calc(1.25em + 1rem + 2px);
-  line-height: 1.25em;
-  padding: 0.5rem;
-  border-width: 1px;
-  font-size: inherit;
-  font-family: inherit;
-  border-color: #bfbfbf;
-  border-style: solid;
-  background-color: white;
-  color: black;
-  outline-offset: 0;
-  border-radius: 0;
-  box-shadow: none;
-  -ms-appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none; }
-  .cxe-numberfield-input:focus {
-    border-color: rgba(77, 144, 254, 0.8);
-    outline: none;
-    box-shadow: 0 0 2px rgba(77, 144, 254, 0.8); }
-  .cxe-numberfield-input:disabled {
-    background: #ebebe4;
-    color: #545454; }
-  .cxs-error.cxs-visited > .cxe-numberfield-input {
-    border-color: rgba(220, 0, 9, 0.8); }
-    .cxs-error.cxs-visited > .cxe-numberfield-input:focus {
-      box-shadow: 0 0 2px rgba(220, 0, 9, 0.8); }
-  .cxe-numberfield-input::-webkit-input-placeholder {
-    color: rgba(128, 128, 128, 0.7);
-    opacity: 1; }
-  .cxe-numberfield-input::-moz-placeholder {
-    color: rgba(128, 128, 128, 0.7);
-    opacity: 1; }
-  .cxe-numberfield-input:-ms-input-placeholder {
-    color: rgba(128, 128, 128, 0.7);
-    opacity: 1; }
-  .cxe-numberfield-input::-ms-clear {
-    width: 0;
-    height: 0; }
-
-.cxe-numberfield-tool {
-  display: block;
-  position: absolute;
-  font-size: 16px;
-  right: 0.5rem;
-  top: 50%;
-  margin-top: -10px;
-  height: 20px;
-  width: 20px;
-  line-height: 20px;
-  opacity: 0.7;
-  text-align: center; }
-  .cxe-numberfield-tool:hover {
-    opacity: 1; }
-
-.cxe-numberfield-icon {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-top: -8px;
-  margin-left: -8px;
-  height: 16px;
-  width: 16px;
-  line-height: 16px; }
-
-.cxe-numberfield-empty-text {
-  color: rgba(128, 128, 128, 0.7); }
-
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-.cxb-select {
-  position: relative;
-  display: inline-block;
-  box-sizing: border-box;
-  width: 180px;
-  line-height: 0; }
-  .cxb-select.cxs-view-mode {
-    line-height: 1.25em;
-    padding: 0.5rem;
-    border-width: 1px;
-    border-style: solid;
-    border-color: transparent; }
-
-.cxe-select-select {
-  box-sizing: border-box;
-  width: 100%;
-  height: calc(1.25em + 1rem + 2px);
-  line-height: 1.25em;
-  padding: 0.5rem;
-  border-width: 1px;
-  font-size: inherit;
-  font-family: inherit;
-  border-color: #bfbfbf;
-  border-style: solid;
-  background-color: white;
-  color: black;
-  outline-offset: 0;
-  border-radius: 0;
-  box-shadow: none;
-  -ms-appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  background-position: right 0.5rem center; }
-  .cxe-select-select:focus {
-    border-color: rgba(77, 144, 254, 0.8);
-    outline: none;
-    box-shadow: 0 0 2px rgba(77, 144, 254, 0.8); }
-  .cxe-select-select:disabled {
-    background: #ebebe4;
-    color: #545454; }
-  .cxs-error.cxs-visited > .cxe-select-select {
-    border-color: rgba(220, 0, 9, 0.8); }
-    .cxs-error.cxs-visited > .cxe-select-select:focus {
-      box-shadow: 0 0 2px rgba(220, 0, 9, 0.8); }
-  .cxe-select-select::-webkit-input-placeholder {
-    color: rgba(128, 128, 128, 0.7);
-    opacity: 1; }
-  .cxe-select-select::-moz-placeholder {
-    color: rgba(128, 128, 128, 0.7);
-    opacity: 1; }
-  .cxe-select-select:-ms-input-placeholder {
-    color: rgba(128, 128, 128, 0.7);
-    opacity: 1; }
-  .cxe-select-select::-ms-clear {
-    width: 0;
-    height: 0; }
-  .cxe-select-select::-ms-expand {
-    display: none;
-    margin: 0;
-    padding: 0; }
-
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-.cxb-textarea {
-  position: relative;
-  display: inline-block;
-  box-sizing: border-box;
-  line-height: 0; }
-  .cxb-textarea.cxs-view-mode {
-    line-height: 1.25em;
-    padding: 0.5rem;
-    border-width: 1px;
-    border-style: solid;
-    border-color: transparent; }
-
-.cxe-textarea-input {
-  box-sizing: border-box;
-  line-height: 1.25em;
-  padding: 0.5rem;
-  border-width: 1px;
-  font-size: inherit;
-  font-family: inherit;
-  border-color: #bfbfbf;
-  border-style: solid;
-  background-color: white;
-  color: black;
-  outline-offset: 0;
-  border-radius: 0;
-  box-shadow: none;
-  -ms-appearance: none;
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  width: 100%;
-  height: 100%; }
-  .cxe-textarea-input:focus {
-    border-color: rgba(77, 144, 254, 0.8);
-    outline: none;
-    box-shadow: 0 0 2px rgba(77, 144, 254, 0.8); }
-  .cxs-disabled > .cxe-textarea-input {
-    background: #ebebe4;
-    color: #545454; }
-  .cxs-error.cxs-visited > .cxe-textarea-input {
-    border-color: rgba(220, 0, 9, 0.8); }
-    .cxs-error.cxs-visited > .cxe-textarea-input:focus {
-      box-shadow: 0 0 2px rgba(220, 0, 9, 0.8); }
-
-.cxe-textarea-tool {
-  display: block;
-  position: absolute;
-  font-size: 16px;
-  right: 0.5rem;
-  top: 50%;
-  margin-top: -10px;
-  height: 20px;
-  width: 20px;
-  line-height: 20px;
-  opacity: 0.7;
-  text-align: center; }
-  .cxe-textarea-tool:hover {
-    opacity: 1; }
-
-.cxe-textarea-icon {
-  display: block;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  margin-top: -8px;
-  margin-left: -8px;
-  height: 16px;
-  width: 16px;
-  line-height: 16px; }
-
-.cxe-textarea-empty-text {
-  color: rgba(128, 128, 128, 0.7); }
-
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
 .cxb-mousecapture {
   position: fixed;
   left: 0;
@@ -1851,922 +21,12 @@ Displayed instead of whitespace
   bottom: 0;
   z-index: 1000000; }
 
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
 .cxs-text-anchor-middle {
   text-anchor: middle; }
 
 .cxs-text-anchor-right {
   text-anchor: end; }
 
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
-/*
-BESM
-
-B - block - top level HTML element
-E - element - part of the component (block)
-S - state - indicator of the component state which affects the appearance
-M - mod - user supplied instruction which overrides default appearance
-*/
-/*
- Boxes
- -----
-
- Boxes are inline-block elements which are likely to appear in the same row, such as buttons and form elements.
- These elements should have the same height in order to avoid problems when put together in a toolbar
- or a complex form.
-
- To achieve standard height, all box model should use the same line-height, top/bottom padding and border-width;
-
- For elements which do not have a natural border, such as checkboxes, radios and buttons,
-  border-color should be set to transparent.
-
-  box height = line-height + padding-top + padding-bottom + border-width-top + border-width-bottom
-
- Some browsers do not respect the line-height being set and therefore explicit height value is
- calculated and set on all box elements.
-
- Hint: Use em units to make that box height grows with the font-size, but note that elements
-    will not be aligned on pixel boundaries and icons may be blurry in some desktop browsers.
-*/
-/*
-Empty Texts
-------------
-
-Displayed instead of whitespace
-*/
 .cxb-label {
   display: inline-block;
   padding: 0.5rem 0;
@@ -2804,10 +64,10 @@ Displayed instead of whitespace
   font-family: inherit;
   border-color: #bfbfbf;
   border-style: solid;
+  border-radius: 0;
   background-color: transparent;
   color: black;
   outline-offset: 0;
-  border-radius: 0;
   box-shadow: none;
   -ms-appearance: none;
   -moz-appearance: none;
@@ -2886,10 +146,10 @@ Displayed instead of whitespace
   font-family: inherit;
   border-color: #bfbfbf;
   border-style: solid;
+  border-radius: 0;
   background-color: transparent;
   color: black;
   outline-offset: 0;
-  border-radius: 0;
   box-shadow: none;
   -ms-appearance: none;
   -moz-appearance: none;
@@ -2926,7 +186,7 @@ Displayed instead of whitespace
   width: 20px;
   line-height: 20px;
   color: gray;
-  border-radius: 50%;
+  border-radius: 0;
   text-align: center; }
   .cxe-datefield-clear:hover {
     background-color: rgba(128, 128, 128, 0.2); }
@@ -2969,10 +229,10 @@ Displayed instead of whitespace
   font-family: inherit;
   border-color: #bfbfbf;
   border-style: solid;
+  border-radius: 0;
   background-color: transparent;
   color: black;
   outline-offset: 0;
-  border-radius: 0;
   box-shadow: none;
   -ms-appearance: none;
   -moz-appearance: none;
@@ -2994,18 +254,21 @@ Displayed instead of whitespace
     width: 2em;
     line-height: 2em; }
   .cxb-calendar td.cxs-today {
-    background: rgba(220, 250, 183, 0.5); }
+    background-color: rgba(220, 250, 183, 0.5);
+    border-radius: 0; }
   .cxb-calendar td.cxs-outside {
     color: lightgray; }
   .cxb-calendar td.cxs-unselectable {
-    color: lightgray;
-    background-color: #eee;
+    color: rgba(128, 128, 128, 0.5);
+    background-color: rgba(128, 128, 128, 0.1);
     cursor: default; }
   .cxb-calendar td.cxs-cursor, .cxb-calendar .cxe-calendar-header td:hover {
     background-color: rgba(128, 128, 128, 0.1);
-    outline: none; }
+    outline: none;
+    border-radius: 0; }
   .cxb-calendar td.cxs-selected {
-    background-color: rgba(128, 128, 128, 0.2); }
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 0; }
   .cxb-calendar:not(.cxs-disabled) td {
     cursor: pointer; }
   .cxb-calendar:focus td.cxs-cursor, .cxb-calendar:focus .cxe-calendar-header td:hover {
@@ -3036,19 +299,17 @@ Displayed instead of whitespace
 
 .cxe-lookupfield-input {
   box-sizing: border-box;
-  width: 100%;
-  height: calc(1.25em + 0.5rem + 1px);
   line-height: 1.25em;
-  padding: 0 0 0.5rem 0;
+  padding: 0 calc(20px + 0.2rem) 0.5rem 0;
   border-width: 0 0 1px 0;
   font-size: inherit;
   font-family: inherit;
   border-color: #bfbfbf;
   border-style: solid;
+  border-radius: 0;
   background-color: transparent;
   color: black;
   outline-offset: 0;
-  border-radius: 0;
   box-shadow: none;
   -ms-appearance: none;
   -moz-appearance: none;
@@ -3056,39 +317,24 @@ Displayed instead of whitespace
   .cxe-lookupfield-input:focus {
     border-color: rgba(77, 144, 254, 0.8);
     outline: none; }
-  .cxe-lookupfield-input:disabled {
+  .cxs-disabled > .cxe-lookupfield-input {
     background: #ebebe4;
     color: #545454; }
   .cxs-error.cxs-visited > .cxe-lookupfield-input {
     border-color: rgba(220, 0, 9, 0.8); }
-  .cxe-lookupfield-input::-webkit-input-placeholder {
-    color: rgba(128, 128, 128, 0.7);
-    opacity: 1; }
-  .cxe-lookupfield-input::-moz-placeholder {
-    color: rgba(128, 128, 128, 0.7);
-    opacity: 1; }
-  .cxe-lookupfield-input:-ms-input-placeholder {
-    color: rgba(128, 128, 128, 0.7);
-    opacity: 1; }
-  .cxe-lookupfield-input::-ms-clear {
-    width: 0;
-    height: 0; }
-  .cxs-icon > .cxe-lookupfield-input {
-    background-position: right 0.5rem center; }
 
 .cxb-lookupfield.cxs-multiple .cxe-lookupfield-input {
-  padding-top: 0;
-  padding-left: 0;
-  padding-bottom: 0.2rem; }
+  padding: 0 calc(20px + 0.2rem) 0.2rem 0; }
 
 .cxe-lookupfield-tag {
-  background: #e8e8e8;
+  background: #eee;
   display: inline-block;
   position: relative;
   margin: 0.2rem 0 0 0.2rem;
   box-sizing: border-box;
   padding: 0.3rem;
-  padding-right: 22px; }
+  padding-right: 22px;
+  border-radius: 0; }
 
 .cxe-lookupfield-placeholder {
   color: rgba(128, 128, 128, 0.7); }
@@ -3113,7 +359,7 @@ Displayed instead of whitespace
   width: 20px;
   line-height: 20px;
   color: gray;
-  border-radius: 50%;
+  border-radius: 0;
   text-align: center;
   right: 0;
   border-top-right-radius: 0;
@@ -3142,7 +388,7 @@ Displayed instead of whitespace
 
 .cxe-lookupfield-query {
   box-sizing: border-box;
-  width: 100%;
+  width: calc(100% - 10px);
   height: calc(1.25em + 0.5rem + 1px);
   line-height: 1.25em;
   padding: 0 0 0.5rem 0;
@@ -3151,17 +397,16 @@ Displayed instead of whitespace
   font-family: inherit;
   border-color: #bfbfbf;
   border-style: solid;
+  border-radius: 0;
   background-color: transparent;
   color: black;
   outline-offset: 0;
-  border-radius: 0;
   box-shadow: none;
   -ms-appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
   margin: 5px;
-  height: auto;
-  width: calc(100% - 10px); }
+  flex: 0 0 auto; }
   .cxe-lookupfield-query:focus {
     border-color: rgba(77, 144, 254, 0.8);
     outline: none; }
@@ -3182,6 +427,10 @@ Displayed instead of whitespace
   .cxe-lookupfield-query::-ms-clear {
     width: 0;
     height: 0; }
+  .cxs-place-up-right .cxe-lookupfield-query,
+  .cxs-place-up .cxe-lookupfield-query,
+  .cxs-place-up-left .cxe-lookupfield-query {
+    order: 1; }
 
 .cxe-lookupfield-dropdown {
   display: flex;
@@ -3200,9 +449,7 @@ Displayed instead of whitespace
 
 .cxe-lookupfield-scroll-container {
   overflow: auto;
-  flex-grow: 1;
-  flex-shrink: 0;
-  flex-basis: auto; }
+  flex: 1 1 auto; }
 
 .cxe-lookupfield-clear {
   display: block;
@@ -3215,10 +462,25 @@ Displayed instead of whitespace
   width: 20px;
   line-height: 20px;
   color: gray;
-  border-radius: 50%;
+  border-radius: 0;
   text-align: center; }
   .cxe-lookupfield-clear:hover {
     background-color: rgba(128, 128, 128, 0.2); }
+
+.cxe-lookupfield-tool {
+  display: block;
+  position: absolute;
+  font-size: 16px;
+  right: 0.5rem;
+  top: 50%;
+  margin-top: -10px;
+  height: 20px;
+  width: 20px;
+  line-height: 20px;
+  opacity: 0.7;
+  text-align: center; }
+  .cxe-lookupfield-tool:hover {
+    opacity: 1; }
 
 .cxe-lookupfield-icon {
   display: block;
@@ -3239,7 +501,6 @@ Displayed instead of whitespace
   top: calc(50% - 100px);
   min-width: 10px;
   min-height: 10px;
-  background: #f2f2f2;
   position: fixed;
   overflow: visible;
   box-sizing: border-box; }
@@ -3255,15 +516,108 @@ Displayed instead of whitespace
   left: 0;
   right: 0;
   top: 0;
-  bottom: 0;
-  background: rgba(128, 128, 128, 0.3); }
+  bottom: 0; }
+
+.cxb-overlay.cxs-pad {
+  padding: 5px; }
 
 .cxb-dropdown {
   display: block;
   left: -10000px;
   top: -10000px;
-  background: white;
-  box-shadow: 0 10px 50px 1px rgba(0, 0, 0, 0.29); }
+  background-color: white;
+  background-color: white;
+  border-radius: 0;
+  border-color: #bfbfbf;
+  border-width: 0;
+  box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.29); }
+  .cxb-dropdown.cxs-place-screen-center {
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.29), 0 0 1000px 1000px rgba(128, 128, 128, 0.3); }
+  .cxb-dropdown.cxs-pad {
+    padding: 5px; }
+
+.cxe-dropdown-arrow-border, .cxe-dropdown-arrow-fill {
+  border-style: solid;
+  border-color: transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none; }
+
+.cxe-dropdown-arrow-border {
+  color: #bfbfbf;
+  border-width: 6px; }
+
+.cxe-dropdown-arrow-fill {
+  color: white;
+  border-width: 6px; }
+
+.cxs-place-right > .cxe-dropdown-arrow-fill, .cxs-place-right-up > .cxe-dropdown-arrow-fill, .cxs-place-right-down > .cxe-dropdown-arrow-fill {
+  right: 100%;
+  top: 50%;
+  border-right-color: currentColor;
+  margin-top: -6px; }
+
+.cxs-place-right > .cxe-dropdown-arrow-border, .cxs-place-right-up > .cxe-dropdown-arrow-border, .cxs-place-right-down > .cxe-dropdown-arrow-border {
+  right: 100%;
+  top: 50%;
+  border-right-color: currentColor;
+  margin-top: -6px; }
+
+.cxs-place-left > .cxe-dropdown-arrow-fill, .cxs-place-left-down > .cxe-dropdown-arrow-fill, .cxs-place-left-up > .cxe-dropdown-arrow-fill {
+  left: 100%;
+  top: 50%;
+  border-left-color: currentColor;
+  margin-top: -6px; }
+
+.cxs-place-left > .cxe-dropdown-arrow-border, .cxs-place-left-down > .cxe-dropdown-arrow-border, .cxs-place-left-up > .cxe-dropdown-arrow-border {
+  left: 100%;
+  top: 50%;
+  border-left-color: currentColor;
+  margin-top: -6px; }
+
+.cxs-place-right-down > .cxe-dropdown-arrow-fill, .cxs-place-left-down > .cxe-dropdown-arrow-fill {
+  top: 16px; }
+
+.cxs-place-right-down > .cxe-dropdown-arrow-border, .cxs-place-left-down > .cxe-dropdown-arrow-border {
+  top: 16px; }
+
+.cxs-place-right-up > .cxe-dropdown-arrow-fill, .cxs-place-right-up > .cxe-dropdown-arrow-border, .cxs-place-left-up > .cxe-dropdown-arrow-fill, .cxs-place-left-up > .cxe-dropdown-arrow-border {
+  top: calc(100% + -16px); }
+
+.cxs-place-up > .cxe-dropdown-arrow-fill, .cxs-place-up-left > .cxe-dropdown-arrow-fill, .cxs-place-up-right > .cxe-dropdown-arrow-fill {
+  left: 50%;
+  top: 100%;
+  border-top-color: currentColor;
+  margin-left: -6px; }
+
+.cxs-place-up > .cxe-dropdown-arrow-border, .cxs-place-up-left > .cxe-dropdown-arrow-border, .cxs-place-up-right > .cxe-dropdown-arrow-border {
+  left: 50%;
+  top: 100%;
+  border-top-color: currentColor;
+  margin-left: -6px; }
+
+.cxs-place-down > .cxe-dropdown-arrow-fill, .cxs-place-down-left > .cxe-dropdown-arrow-fill, .cxs-place-down-right > .cxe-dropdown-arrow-fill {
+  left: 50%;
+  bottom: 100%;
+  border-bottom-color: currentColor;
+  margin-left: -6px; }
+
+.cxs-place-down > .cxe-dropdown-arrow-border, .cxs-place-down-left > .cxe-dropdown-arrow-border, .cxs-place-down-right > .cxe-dropdown-arrow-border {
+  left: 50%;
+  bottom: 100%;
+  border-bottom-color: currentColor;
+  margin-left: -6px; }
+
+.cxs-place-down-right > .cxe-dropdown-arrow-fill, .cxs-place-down-right > .cxe-dropdown-arrow-border, .cxs-place-up-right > .cxe-dropdown-arrow-fill, .cxs-place-up-right > .cxe-dropdown-arrow-border {
+  left: 16px; }
+
+.cxs-place-down-left > .cxe-dropdown-arrow-fill, .cxs-place-up-left > .cxe-dropdown-arrow-fill {
+  left: calc(100% + -16px); }
+
+.cxs-place-down-left > .cxe-dropdown-arrow-border, .cxs-place-up-left > .cxe-dropdown-arrow-border {
+  left: calc(100% + -16px); }
 
 .cxb-labelstoplayout {
   border-spacing: 0; }
@@ -3465,7 +819,7 @@ header {
 .cxe-searchfield-input {
   box-sizing: border-box;
   width: 100%;
-  height: calc(1.25em + 1em + 0);
+  height: "2.25em";
   line-height: 1.25em;
   padding: 0.5em 0;
   border-width: 0;
@@ -3473,10 +827,10 @@ header {
   font-family: inherit;
   border-color: #bfbfbf;
   border-style: solid;
+  border-radius: 0;
   background-color: transparent;
   color: white;
   outline-offset: 0;
-  border-radius: 0;
   box-shadow: none;
   -ms-appearance: none;
   -moz-appearance: none;
